@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Login</title>
+	<link rel="icon" href="favicon.ico">
+	
+	<link rel="stylesheet" href="mystyle.css">
+	<script type="text/javascript" src="login.js" ></script>
+
+</head>
+
+<body id="login-page">
+	<img src="bckgrd.jpg" id="login-pic" style="width: 300px; height: 300px"> <br>
+
+	<div class="set_center">
+		<label for="login-id">ID: </label>
+		<input type="login-id" id="login-id" name="login-id"placeholder="name" class="text-input-style" size="11px" > <br><br>
+
+
+		<label for "login-pw">PW: </label>
+		<input type="login-pw" id="login-pw" name="login-pw" placeholder="password" autocomplete="off" class="text-input-style" size="10px"> <br><br>
+
+
+
+		<input type="submit" id="login-enter" value="Enter" onclick="validatePW()">
+		<input type="button" id="login-forgetPW" value="Forget password" onclick="forgetPW()" />
+
+	</div>
+
+</body>
+
+
+</html>
