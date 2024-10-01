@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body[id="main-page"]{
+	background-color:rgb(200,200,200);
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans Ms;
+}
+
+.top-bar{
+	background-color:black;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.top-bar-text{
+	color: white;
+	font-size: 110%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+}
+
+.set-center-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.picture-1-container{
+	position: relative;
+	margin: auto;
+}
+
+.picture-1{
+	max-width: 1920px;
+	width: auto;
+	height: auto;
+	align-items
+}
+
+.text-in-picture{
+	color: black;
+	font-size: 150%;
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.second-container{
+	width: 1583px;
+	height: 800px;
+	position: relative;
+	background-color: white;
+	padding: 20px;
+	margin: 0px;
+	display: flex;
+}
+
+.picture-2-container{
+	width: auto;
+	border: 2px solid black;
+	margin: 2px;
+	position: relative;
+	margin: auto;
+	align-items: center;
+	justify-items: center;
+}
+
+.picture-2{
+	width: auto;
+	height: auto;
+}
+
+.text-2-container{
+	min-width: 55%;
+	height: 700px;
+	margin: auto 2px;
+	text-align: center;
+	justify-items: center;
+	position: relative;
+}
+
+.text-2-heading{
+	font-size: 400%;
+	text-decoration: underline;
+	font-family: Comic Sans Ms;
+	color: black;
+	margin: 0px;
+}
+
+.text-2-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.text-2-1, .text-2-2, .text-2-3, .text-2-4, .text-2-5{
+	width: 500px;
+	margin: 20px 0px;
+	font-size: 300%;
+	font-family: Comic Sans Ms;
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	position: relative;
+	text-decoration: none;
+}
+
+.text-2-1:hover::after{
+	content: "JM";
+	width: 500px;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.text-2-2:hover::after{
+	content: "25 OCT 2006";
+	width: 500px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	display: block;
+	z-index: 1;
+}
+
+.text-2-3:hover::after{
+	content: "MUFY";
+	width: 500px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	display: block;
+	z-index: 1;
+}
+
+.text-2-4:hover::after{
+	content: "Click me";
+	width: 500px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	text-decoration: ;
+	display: block;
+	z-index: 1;
+}
+
+.text-2-5:hover::after{
+	content: "SPM";
+	width: 500px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	display: block;
+	z-index: 1;
+}
+
+.third-container{
+	width: 1583px;
+	height: 800px;
+	border: 0px solid black;
+	display: flex;
+	flex-direction: column;
+	font-family: Comic Sans Ms;
+}
+
+.third-row-1{
+	width: 1583px;
+	min-height: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.third-row-1-1, .third-row-2-1{
+	height: 300px;
+	width: 300px;
+	background-color:white;
+	border: 3px solid black;
+	margin: 10px auto;
+	color: black;
+	display: inline-block;
+}
+
+.third-row-1-2, .third-row-2-2{
+	height: 300px;
+	width: 1100px;
+	background-color:white;
+	border: 5px solid black;
+	margin: 50px 50px;
+	color: black;
+	text-align: center;
+	display: inline-block;
+}
+
+.third-row-2{
+	width: 1583px;
+	min-height: 50%;
+	display: flex;
+	justify-content:space-between;
+	align-items: center
+}
